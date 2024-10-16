@@ -1,0 +1,9 @@
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    <span>{{ rdf_helpers.get_object_by(graph, object, 'http://xmlns.com/foaf/0.1/name') }}</span>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

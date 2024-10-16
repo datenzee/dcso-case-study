@@ -1,0 +1,9 @@
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    <span>{{ rdf_helpers.get_object_by(graph, object, 'http://www.w3.org/ns/dcat#keyword') }}</span>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

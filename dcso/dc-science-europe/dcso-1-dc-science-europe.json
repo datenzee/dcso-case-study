@@ -1,0 +1,2124 @@
+{
+  "components": [
+    {
+      "name": "Root",
+      "content": {
+        "order": 1,
+        "uuid": "2d1f096c-75e4-4055-b4ff-124bc50dcfd3",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "13104072-5bf5-4e63-8b7a-ed3616435b37",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "d7c938c1-a33f-4821-b0f9-f443c5068ce6",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://purl.org/dc/terms/title"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentHeading"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "2012e2bd-43fa-4e57-95af-bfbf061b8222",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "a44a1891-6fe0-4d1e-ae54-46832505ce61",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "Science Europe<br/>Data Management Plan"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentStrong"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "1344a5a1-f92e-41ef-b588-008cad412d32",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "5b3a43a1-36aa-483c-aa18-7e0e4dece94c",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "https://w3id.org/dcso/ns/core#created"
+                        },
+                        "content": {
+                          "type": "ContentDateTime"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "eea9aa58-9a23-4ef9-a472-f1abf0f2375e",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "3b74e2c2-4e14-4337-b415-653820232810",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "dab956d0-0951-4e0b-bc69-a47afdc92099",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Contacts"
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentHeading"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "9213b15a-7831-4553-b2b3-4ccc43b41046",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "There are the following contacts related to the project of this DMP:"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "830cb055-012b-47ee-a65c-d81ffdc68eff",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentDataComponentWrapper",
+                        "predicate": "https://w3id.org/dcso/ns/core#hasContact",
+                        "dataComponent": "http://purl.org/datenzee/dmp-data-components#Contact"
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "81cdb09a-6cb1-4fae-8569-2347c7f09a9f",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "5344f21d-5026-4749-ab23-273802981e40",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "11f95232-6f8c-4235-b1cd-d5d5598b508c",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Contributor"
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentHeading"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "95e0d893-1929-4ad4-94b6-ab44312e68d8",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "There are the following contributors related to the project of this DMP:"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "ac3e33ef-7662-4659-a7f8-454a6a6b18fd",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentDataComponentWrapper",
+                        "predicate": "https://w3id.org/dcso/ns/core#hasContributor",
+                        "dataComponent": "http://purl.org/datenzee/dmp-data-components#Contributor"
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "e19937d5-368a-4661-b644-fac360d8e650",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "bbca39fe-5322-4d94-8664-6c834d1a1782",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "763ddc7e-d45b-4c9b-bb14-d7c399926ce6",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Projects"
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentHeading"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "cb970ee3-817f-4656-a36a-14237a58c765",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "We will be working on the following project and for those are the data and work described in this DMP."
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "eeebae9e-e0fc-4b32-a53d-21b13a057259",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentDataComponentWrapper",
+                        "predicate": "https://w3id.org/dcso/ns/core#hasProject",
+                        "dataComponent": "http://purl.org/datenzee/dmp-data-components#Project"
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "8c1b8305-04a1-4734-9277-c2d53a9bd342",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "a1ba7230-8a61-49ce-b90e-383854a8e85a",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "We will reuse or produce the following datasets in the project."
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "414bea60-4d0e-4ad6-8915-9e1c1a3a5108",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentDataComponentWrapper",
+                        "predicate": "https://w3id.org/dcso/ns/core#hasDataset",
+                        "dataComponent": "http://purl.org/datenzee/dmp-data-components#Dataset"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "82535848-addd-4ae0-a1bc-a60d1f36c8fb",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentDataComponentWrapper",
+                        "predicate": "https://w3id.org/dcso/ns/core#hasDataset",
+                        "dataComponent": "http://purl.org/datenzee/dmp-data-components#Q2"
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "Contact",
+      "content": {
+        "order": 1,
+        "uuid": "ef28e283-b5b6-444c-b548-5cea44cb69c9",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "45c3aa95-c077-442e-aa53-1a127dabb47c",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "cb34ff46-bfa5-497a-ac0d-2ba7cdbba561",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "• "
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": false,
+                "content": {
+                  "type": "NodeContentStrong"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "8d7c8857-84f4-422e-b3e4-b9ebd7cde48f",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "34a0766e-4a80-47af-a59b-0f97bde1273d",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://xmlns.com/foaf/0.1/name"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": false,
+                "content": {
+                  "type": "NodeContentStrong"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "70da1a75-095f-427d-83e1-5fab492f7ef5",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourceText",
+                    "text": " ("
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "7a191f7a-c53c-4b69-aab0-39206d0761b4",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourcePredicate",
+                    "predicate": "http://xmlns.com/foaf/0.1/mbox"
+                  },
+                  "content": {
+                    "type": "ContentEmail"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "da407200-d827-4f12-afb2-94ecaacfb3e7",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourceText",
+                    "text": ")"
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "Contributor",
+      "content": {
+        "order": 1,
+        "uuid": "83d3f1d1-7a7e-4f50-9ce6-15bc2774cee5",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "b369bbac-7a7d-4ccf-a115-7df0e5215ea7",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "ea3e6e20-6d2f-40a6-818f-a0b613efc7ea",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "• "
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": false,
+                "content": {
+                  "type": "NodeContentStrong"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "eecd56e5-eea9-4d9d-a564-0eb62ecc4c42",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "ffd1e785-b88a-4a62-a6c8-eea7639d04b3",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://xmlns.com/foaf/0.1/name"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": false,
+                "content": {
+                  "type": "NodeContentStrong"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "98491d00-6912-4eeb-9297-cd502e7e1864",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourceText",
+                    "text": " ("
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "e4f226d9-b080-49e7-9662-ffe984ce6b99",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourcePredicate",
+                    "predicate": "http://xmlns.com/foaf/0.1/mbox"
+                  },
+                  "content": {
+                    "type": "ContentEmail"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "fe7f73db-521b-49f0-8b45-1a410c3dc4b3",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourceText",
+                    "text": "), Role: "
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "cdeeec12-2ab5-46ff-9789-517e5a181aca",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "6b8cab3c-0764-4a74-9446-b494e4d12d7b",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "https://w3id.org/dcso/ns/core#role"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": false,
+                "content": {
+                  "type": "NodeContentEmphasis"
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "Project",
+      "content": {
+        "order": 1,
+        "uuid": "d25d05ef-b835-45af-b8cb-a248cd6641ca",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "1300e3ef-099d-4c6e-b1ea-2e4e2eb39d28",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "0014cf9f-6e71-429f-a41a-b1998d28f572",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://purl.org/dc/terms/title"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentHeading"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "f5360225-1c30-49d0-addc-4c5f01e9873c",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "d6b7943f-39e7-4cbb-a8ab-545b8c4ca3fc",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "9372b4a1-2e9e-47b6-9aaa-91c9da6ece38",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Start date: "
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": false,
+                      "content": {
+                        "type": "NodeContentStrong"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "bd893477-6a59-4bff-bab8-8523e0a4e07c",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "https://w3id.org/dcso/ns/core#start"
+                        },
+                        "content": {
+                          "type": "ContentDate"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "983fda3f-00bf-4f2f-a90c-cb39e8844189",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "ffa14e59-1865-4318-aa66-dd9bb25230ea",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "c0c77860-5cc4-43c8-bb17-d36d36466677",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "End date: "
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": false,
+                      "content": {
+                        "type": "NodeContentStrong"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "5ec6ab60-aa72-4411-89b9-74b7d3c8d2c9",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "https://w3id.org/dcso/ns/core#end"
+                        },
+                        "content": {
+                          "type": "ContentDate"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "46282fa9-4446-4505-960f-c00f92d35c53",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourcePredicate",
+                    "predicate": "http://purl.org/dc/terms/description"
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "Dataset",
+      "content": {
+        "order": 1,
+        "uuid": "c96b0f78-3b52-4393-8ae4-bd0aea4315e0",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "21611d81-83df-4d77-80be-83ad39275339",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "b9137cf6-7b69-410c-902a-0a6432df44c5",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://purl.org/dc/terms/title"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentHeading"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "60e5a94b-c7b3-4819-b000-24876fe0b5df",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourcePredicate",
+                    "predicate": "http://purl.org/dc/terms/description"
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "a4673a0c-430f-451e-829e-c49831164624",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "b90843dd-8bff-44a7-903a-34e8520ac750",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "7a37d97c-7b12-4729-9b0e-2065b276be97",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Keywords: "
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": false,
+                      "content": {
+                        "type": "NodeContentStrong"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "ac627b27-aaf8-46f2-89a4-f167b95b5337",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://www.w3.org/ns/dcat#keyword"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "4d3d470d-6eb5-465c-8d7c-32e9cbe700a9",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "74b4557f-6174-4f8a-9946-79ebf56ca07b",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "5b0a10ff-7cd9-4dba-aec4-fc699e5e7e11",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Issued: "
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": false,
+                      "content": {
+                        "type": "NodeContentStrong"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "9fb80259-9d6c-4f25-8ff7-845cf74f6b00",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://purl.org/dc/terms/issued"
+                        },
+                        "content": {
+                          "type": "ContentDateTime"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "4afdf25c-6a03-4cc7-89fb-aa2407d2364e",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "2adb8505-efe2-4699-9ad8-189bcffdf85c",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "fcd5d987-b389-4393-8659-2f528871b01b",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Dataset Type: "
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": false,
+                      "content": {
+                        "type": "NodeContentStrong"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "15f43856-582c-4adb-91bf-f9fb66c35361",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "https://w3id.org/dcso/ns/core#datasetType"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "1a4d81c2-12cc-47d4-a96f-499a0a11529b",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [],
+                "isBlock": false,
+                "content": {
+                  "type": "NodeContentCondition",
+                  "predicate": "https://w3id.org/dcso/ns/core#personalData",
+                  "value": "yes",
+                  "containsPositive": {
+                    "order": 1,
+                    "uuid": "19bf8099-7296-42f7-a866-a45be49cdca6",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "ee9958fd-ca07-41db-9345-35839772053e",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "The dataset contains personal data."
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  "containsNegative": {
+                    "order": 1,
+                    "uuid": "a58216c8-ae94-4690-944d-a0053f0c902d",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [],
+                      "isBlock": false,
+                      "content": {
+                        "type": "NodeContentCondition",
+                        "predicate": "https://w3id.org/dcso/ns/core#personalData",
+                        "value": "no",
+                        "containsPositive": {
+                          "order": 1,
+                          "uuid": "8a9b8a44-59ff-4406-84dd-71e116809e57",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "c6bded33-dedc-4951-bf2b-cd14f53cdfcc",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "The dataset contains no personal data."
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": true,
+                            "content": {
+                              "type": "NodeContentContainer"
+                            }
+                          }
+                        },
+                        "containsNegative": {
+                          "order": 1,
+                          "uuid": "b5b9a55a-6cff-48f2-bf75-d6f17eaef759",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "4756b358-0b8b-494d-8bde-114929197f4c",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "It is unclear if the dataset contains personal data."
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": true,
+                            "content": {
+                              "type": "NodeContentContainer"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "f4aaa97c-9acc-441a-b489-fc928e0961f0",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [],
+                "isBlock": false,
+                "content": {
+                  "type": "NodeContentCondition",
+                  "predicate": "https://w3id.org/dcso/ns/core#sensitiveData",
+                  "value": "yes",
+                  "containsPositive": {
+                    "order": 1,
+                    "uuid": "fa6510ef-1628-4343-bd89-1c58b7ad1f20",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "91f1f08f-efab-4d09-b1f4-8c80d1b090c0",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "The dataset contains sensitive data."
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  "containsNegative": {
+                    "order": 1,
+                    "uuid": "ccf3d71d-2a96-4163-bf78-e25ba93a3817",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentCondition",
+                        "predicate": "https://w3id.org/dcso/ns/core#sensitiveData",
+                        "value": "no",
+                        "containsPositive": {
+                          "order": 1,
+                          "uuid": "8eba13da-7bdf-4f91-9ea4-db52196fec54",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "f919c258-e02b-40a7-84e5-20118f4b07b5",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "The dataset contains no sensitive data."
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": true,
+                            "content": {
+                              "type": "NodeContentContainer"
+                            }
+                          }
+                        },
+                        "containsNegative": {
+                          "order": 1,
+                          "uuid": "b3ee9337-8cab-4437-896a-722cbc239b28",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "c6f7ea94-73d2-489f-9ba9-645eca97356c",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "It is unknown if the dataset contains sensitive data."
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": true,
+                            "content": {
+                              "type": "NodeContentContainer"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "fc4bd849-b3aa-4ad5-b3e7-e716852a9c9c",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "645749ef-a1c7-469d-a6d7-fc58eebc1241",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "https://w3id.org/dcso/ns/core#preservationStatement"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "d99297ca-526f-470b-a174-1b63be2b79a7",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "7aa83e9f-4954-49a3-ac18-590aae9832d9",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "b71373a2-0656-47b1-bf54-e8523e7eb62e",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "Distributions"
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentHeading"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "875fe042-9e9c-4f38-9a44-bef28c524b35",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "3ab59846-1435-43fd-8291-37307ed857ad",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourceText",
+                                "text": "This dataset will be available in the following distributions."
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "8be7ac40-b049-41b2-978e-b6b31523b820",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentDataComponentWrapper",
+                        "predicate": "https://w3id.org/dcso/ns/core#hasDistribution",
+                        "dataComponent": "http://purl.org/datenzee/dmp-data-components#Distribution"
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "Distribution",
+      "content": {
+        "order": 1,
+        "uuid": "54edc3d3-1008-40a2-9553-f63c3e24bb1a",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "1c650821-dbd2-45eb-8540-46e0cb7bc38f",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "02348a6e-e70f-4090-8adb-d436307ba360",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://purl.org/dc/terms/title"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentHeading"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "f425ad2a-e419-4bdf-b990-0e2a3c183ac2",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "cc8ab42c-377a-43de-af5d-081645d20b73",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://purl.org/dc/terms/description"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "c14c0084-a8eb-4f8a-a4fc-f87f449e0586",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "f3e5c189-565a-4cb7-b529-969c9a4642cf",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "d3198379-dcfc-4e34-b6db-fb11f9ab8219",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "Format: "
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": false,
+                            "content": {
+                              "type": "NodeContentStrong"
+                            }
+                          }
+                        },
+                        {
+                          "order": 1,
+                          "uuid": "cd7da1cf-b89d-4aa2-a1d7-8fd9a8ee17eb",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourcePredicate",
+                                "predicate": "http://purl.org/dc/terms/format"
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "707a9040-48df-4136-82fc-001bf564b02a",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "797546e5-e3d7-4d42-b83e-1497116a4134",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "7fae5073-994b-4b38-813a-d43588df4cd8",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "Byte Size: "
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": false,
+                            "content": {
+                              "type": "NodeContentStrong"
+                            }
+                          }
+                        },
+                        {
+                          "order": 1,
+                          "uuid": "99eaa079-6bde-4cac-825c-76d04ea12942",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourcePredicate",
+                                "predicate": "http://www.w3.org/ns/dcat#byteSize"
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "008ff9df-e1a1-4e3b-9d99-61ae2db3a376",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "e6ca4d01-f3b3-4d01-bcc1-34daa904ee6e",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "daf7b8f8-3bf8-42aa-b7d7-5d64eefbfd93",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "Access URL: "
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": false,
+                            "content": {
+                              "type": "NodeContentStrong"
+                            }
+                          }
+                        },
+                        {
+                          "order": 1,
+                          "uuid": "638e9696-3e3f-4039-a344-5cd20d2f12d0",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourcePredicate",
+                                "predicate": "http://www.w3.org/ns/dcat#accessURL"
+                              },
+                              "content": {
+                                "type": "ContentUrl"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "80bbeee0-ace1-467d-be9c-b47b8f015b13",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "77669e2e-8774-4f9b-bc81-42b0b4c6dcf5",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "d5578791-229b-4639-b74c-f62c21c505ed",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "Download URL: "
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": false,
+                            "content": {
+                              "type": "NodeContentStrong"
+                            }
+                          }
+                        },
+                        {
+                          "order": 1,
+                          "uuid": "2c561bbd-97b7-4ea9-9ba3-8bfb17275fb2",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourcePredicate",
+                                "predicate": "http://www.w3.org/ns/dcat#downloadURL"
+                              },
+                              "content": {
+                                "type": "ContentUrl"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "de4ce79f-01fa-4892-85f5-00abca77da47",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "8a137db5-12ad-4b02-83a6-f81e83cda5c5",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "0ed11fac-5e18-452d-b71f-f7aa897b0842",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "Available Until: "
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": false,
+                            "content": {
+                              "type": "NodeContentStrong"
+                            }
+                          }
+                        },
+                        {
+                          "order": 1,
+                          "uuid": "d9bd657d-f775-410c-949a-8387291fb501",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourcePredicate",
+                                "predicate": "https://w3id.org/dcso/ns/core#availableUntil"
+                              },
+                              "content": {
+                                "type": "ContentDate"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "4d281b89-d289-4a68-a95b-c3ea37de7cf3",
+                    "content": {
+                      "type": "TreeContentNode",
+                      "contains": [
+                        {
+                          "order": 1,
+                          "uuid": "f5c14306-8d09-49fb-b6d7-5aa0db6ea6be",
+                          "content": {
+                            "type": "TreeContentNode",
+                            "contains": [
+                              {
+                                "order": 1,
+                                "uuid": "089a1731-db2f-4467-9042-657f30ea6001",
+                                "content": {
+                                  "type": "TreeContentLeaf",
+                                  "content": {
+                                    "type": "LeafContentContent",
+                                    "contentSource": {
+                                      "type": "LeafContentSourceText",
+                                      "text": "Data Access: "
+                                    },
+                                    "content": {
+                                      "type": "ContentContent"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "isBlock": false,
+                            "content": {
+                              "type": "NodeContentStrong"
+                            }
+                          }
+                        },
+                        {
+                          "order": 1,
+                          "uuid": "787c8ee3-dd3c-4b85-8a20-c98cd6776c96",
+                          "content": {
+                            "type": "TreeContentLeaf",
+                            "content": {
+                              "type": "LeafContentContent",
+                              "contentSource": {
+                                "type": "LeafContentSourcePredicate",
+                                "predicate": "https://w3id.org/dcso/ns/core#dataAccess"
+                              },
+                              "content": {
+                                "type": "ContentContent"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "isBlock": true,
+                      "content": {
+                        "type": "NodeContentContainer"
+                      }
+                    }
+                  },
+                  {
+                    "order": 1,
+                    "uuid": "3bad75b8-07de-4775-8aa1-0723c7376654",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentDataComponentWrapper",
+                        "predicate": "https://w3id.org/dcso/ns/core#hasLicense",
+                        "dataComponent": "http://purl.org/datenzee/dmp-data-components#License"
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentContainer"
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "License",
+      "content": {
+        "order": 1,
+        "uuid": "0da865e9-2565-4e68-b4d1-9128a22ceae1",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "679b413e-3370-4dce-b9c2-33b0ceb502e6",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourceText",
+                    "text": "From "
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "eb0f4905-a671-4e60-9630-4d64abcdfc4e",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourcePredicate",
+                    "predicate": "https://w3id.org/dcso/ns/core#startDate"
+                  },
+                  "content": {
+                    "type": "ContentDate"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "3fb7aebe-70e1-40ec-a4ca-d97159ad8698",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourceText",
+                    "text": ", this distribution uses the following license: "
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "a5d7ecc3-0ecb-42bb-91d6-01f44f64f27e",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourcePredicate",
+                    "predicate": "https://w3id.org/dcso/ns/core#licenseRef"
+                  },
+                  "content": {
+                    "type": "ContentUrl"
+                  }
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "bc5b8b9c-2ad1-4876-bb6c-b1b15d1a10df",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentContent",
+                  "contentSource": {
+                    "type": "LeafContentSourceText",
+                    "text": "."
+                  },
+                  "content": {
+                    "type": "ContentContent"
+                  }
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "TechnicalResource",
+      "content": {
+        "order": 1,
+        "uuid": "f7d7772f-31cd-4db5-8ff1-d6f0f8fb0da7",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "24b8e33e-20d6-48ab-9fef-a688b558216a",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "5ef41af5-43c3-4fda-bae9-ec74550559ee",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://xmlns.com/foaf/0.1/name"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentHeading"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "865e9a3d-a86c-4340-9731-6887b9a20c89",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "33a3d0dd-84b4-42a4-bfb4-2e2f11e5dc69",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourcePredicate",
+                          "predicate": "http://purl.org/dc/terms/description"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentEmphasis"
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    },
+    {
+      "name": "Q2",
+      "content": {
+        "order": 1,
+        "uuid": "d547f634-a09d-45c4-a600-9298ea5eb2af",
+        "content": {
+          "type": "TreeContentNode",
+          "contains": [
+            {
+              "order": 1,
+              "uuid": "808e3292-aff4-4baa-b570-06df9c498eb7",
+              "content": {
+                "type": "TreeContentNode",
+                "contains": [
+                  {
+                    "order": 1,
+                    "uuid": "8010a1d1-7b4b-44b7-9be1-ee6a9dd8bd3d",
+                    "content": {
+                      "type": "TreeContentLeaf",
+                      "content": {
+                        "type": "LeafContentContent",
+                        "contentSource": {
+                          "type": "LeafContentSourceText",
+                          "text": "2. How will the data be collected or created?"
+                        },
+                        "content": {
+                          "type": "ContentContent"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "isBlock": true,
+                "content": {
+                  "type": "NodeContentHeading"
+                }
+              }
+            },
+            {
+              "order": 1,
+              "uuid": "f454d3d0-d2ac-43bb-bbd6-4605c58dc0e6",
+              "content": {
+                "type": "TreeContentLeaf",
+                "content": {
+                  "type": "LeafContentDataComponentWrapper",
+                  "predicate": "https://w3id.org/dcso/ns/core#hasTechnicalResource",
+                  "dataComponent": "http://purl.org/datenzee/dmp-data-components#TechnicalResource"
+                }
+              }
+            }
+          ],
+          "isBlock": true,
+          "content": {
+            "type": "NodeContentContainer"
+          }
+        }
+      }
+    }
+  ]
+}

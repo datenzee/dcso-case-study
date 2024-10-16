@@ -1,0 +1,17 @@
+{% import 'src/components/gen/Heading_24b8e33e20d648ab9fefa688b558216a.html.jinja2' as Heading_24b8e33e20d648ab9fefa688b558216a %}
+{% import 'src/components/gen/Emphasis_865e9a3da86c434097316887b9a20c89.html.jinja2' as Emphasis_865e9a3da86c434097316887b9a20c89 %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    <div>
+        {{ Heading_24b8e33e20d648ab9fefa688b558216a.component(graph, depth + 1, object) }}
+        {{ Emphasis_865e9a3da86c434097316887b9a20c89.component(graph, depth + 1, object) }}
+        
+    </div>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

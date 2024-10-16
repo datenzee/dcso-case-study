@@ -1,0 +1,1506 @@
+{
+  "id": "datenzee:dcso:1.0.0",
+  "kmId": "dcso",
+  "metamodelVersion": 15,
+  "name": "DCSO",
+  "organizationId": "datenzee",
+  "packages": [
+    {
+      "createdAt": "2024-10-16T09:02:28.151355Z",
+      "description": "",
+      "events": [
+        {
+          "annotations": [],
+          "createdAt": "2024-10-16T09:02:28.166022663Z",
+          "entityUuid": "60b91dc6-e351-4233-b8a4-2f2c4afc9c4b",
+          "eventType": "AddKnowledgeModelEvent",
+          "parentUuid": "00000000-0000-0000-0000-000000000000",
+          "uuid": "cc428551-3950-4a94-ab82-8b72da07b6dd"
+        },
+        {
+          "annotations": [],
+          "createdAt": "2024-10-16T09:02:28.166027047Z",
+          "entityUuid": "ae8db3c4-1318-4707-ad93-44143f2c1b6f",
+          "eventType": "AddChapterEvent",
+          "parentUuid": "60b91dc6-e351-4233-b8a4-2f2c4afc9c4b",
+          "text": null,
+          "title": "Chapter",
+          "uuid": "970f54cb-50f7-4b9b-ac01-091352a2bc51"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#DMP"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.166032293Z",
+          "entityUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "ae8db3c4-1318-4707-ad93-44143f2c1b6f",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#DMP`\n##### Description:\nProvides high level information about the DMP, e.g. its title, modification date, etc. It is the root of this application profile. The majority of its fields are mandatory. ",
+          "title": "Dmp",
+          "uuid": "87cce96b-0d74-4889-a473-4c824e73c8f7"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#created"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.167649402Z",
+          "entityUuid": "359d0ebe-fa77-4d0d-ac47-3dd6788a2544",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#created`\n##### Description:\nThe of creation for the DMP",
+          "title": "Created",
+          "uuid": "825e5165-d5f8-4e81-932e-dfaa9f0f71cd",
+          "valueType": "DateTimeQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#ethicalIssueDescription"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.168961991Z",
+          "entityUuid": "6084c137-379d-45c9-b637-dea5704d1afa",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#ethicalIssueDescription`\n##### Description:\nTo describe ethical issues directly in a DMP",
+          "title": "Ethical Issue Description",
+          "uuid": "9c9f354a-53c0-4722-880d-78ad8d80d717",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#ethicalIssuesExist"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.168966759Z",
+          "entityUuid": "1a315262-14f1-4191-bbf5-4dee9dc54484",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#ethicalIssuesExist`\n##### Description:\nTo indicate whether there are ethical issues related to data that this DMP describes.\nAllowed Values:\n\n    yes\n    no\n    unknown",
+          "title": "Ethical Issues Exist",
+          "uuid": "1d5e28e2-de68-4fda-b71d-27a2db7a338a",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#ethicalIssuesReport"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.168970798Z",
+          "entityUuid": "f52946ee-b287-4dc6-bace-f46d45fcf8af",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#ethicalIssuesReport`\n##### Description:\nTo indicate where a protocol from a meeting with an ethical commitee can be found",
+          "title": "Ethical Issues Report",
+          "uuid": "99400e95-6c39-4e79-a6ee-aed1b8f8022f",
+          "valueType": "UrlQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#modified"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.168977237Z",
+          "entityUuid": "7035d6c2-6941-442e-9dc3-2ba58571001b",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#modified`\n##### Description:\nThe date for the latest DMP modification",
+          "title": "Modified",
+          "uuid": "768262b1-4344-4863-8c32-e6f1a3b9f0bd",
+          "valueType": "DateTimeQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#report"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.168982726Z",
+          "entityUuid": "764d6be1-1282-4942-a96b-839e9a815d1f",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#report`",
+          "title": "Report",
+          "uuid": "8ef6dac9-61a2-4041-8c27-e624a6d3ec11",
+          "valueType": "UrlQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Contact"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasContact"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.168995218Z",
+          "entityUuid": "21ed9aac-f591-4bc6-af4a-650f4bf487da",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Contact`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasContact`\n##### Description:\nAny Contact that can provide information on this DMP.\n##### Relation Description:\nSpecifies the party which can provide any information on the DMP. This is not necessarily the DMP creator, and can be a person or an organisation. ",
+          "title": "Contact",
+          "uuid": "0dec6fe1-670b-459d-bf8e-a72e32b99c0e"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://xmlns.com/foaf/0.1/mbox"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.16901071Z",
+          "entityUuid": "62f7c760-5366-406e-85ec-9bd4c0e437b4",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "21ed9aac-f591-4bc6-af4a-650f4bf487da",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://xmlns.com/foaf/0.1/mbox`\n##### Description:\nE_mail address",
+          "title": "Mbox",
+          "uuid": "ad7306b3-440e-4211-b22a-31d6ce353e0e",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://xmlns.com/foaf/0.1/name"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169014131Z",
+          "entityUuid": "8919f1cc-9f57-4779-af21-af18009c84ca",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "21ed9aac-f591-4bc6-af4a-650f4bf487da",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://xmlns.com/foaf/0.1/name`",
+          "title": "Name",
+          "uuid": "5c001d4a-3bfe-426e-b85e-309be510137a",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#ContactId"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasContactId"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169030833Z",
+          "entityUuid": "587edd1a-3558-4550-90ca-2f57ebcae41b",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "21ed9aac-f591-4bc6-af4a-650f4bf487da",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#ContactId`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasContactId`\n##### Description:\nAny ID used to uniquely identified this Contact.\n##### Relation Description:\nIdentifier for a contact person",
+          "title": "Contact Id",
+          "uuid": "4eb7b939-075c-46e6-9526-39b45fbed38a"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifier"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169038812Z",
+          "entityUuid": "2dddf33b-9f82-40be-87aa-a8e7ee6bef2b",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "587edd1a-3558-4550-90ca-2f57ebcae41b",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifier`\n##### Description:\nThe identifier any of the id classes",
+          "title": "Identifier",
+          "uuid": "d673adc0-236f-4000-8e83-2766b295687f",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifierType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169043255Z",
+          "entityUuid": "e7c96cc9-d73e-4295-9914-775eba5036c3",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "587edd1a-3558-4550-90ca-2f57ebcae41b",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifierType`\n##### Description:\nIdentifier type",
+          "title": "Identifier Type",
+          "uuid": "8b2b18fb-df26-454b-b532-9990639394ba",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Contributor"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasContributor"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169066308Z",
+          "entityUuid": "2c6c2978-fa19-4271-ad54-3b31c208d501",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Contributor`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasContributor`\n##### Description:\nAny Contributor involved in the process of the data management described by this DMP as well as any Contributor involved in the creation and management of this DMP itself.\n##### Relation Description:\nFor listing all parties involved in the process of the data management described by this DMP, and those parties involved in the creation and management of the DMP itself. ",
+          "title": "Contributor",
+          "uuid": "f1d89684-9eb7-4ba5-904c-7e9a6e92f0a3"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://xmlns.com/foaf/0.1/mbox"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169076656Z",
+          "entityUuid": "5ed8a365-ca9e-41b5-8119-cfec255f8f62",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "2c6c2978-fa19-4271-ad54-3b31c208d501",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://xmlns.com/foaf/0.1/mbox`\n##### Description:\nE_mail address",
+          "title": "Mbox",
+          "uuid": "a876af76-f12e-4b3b-ac7a-5d011165ec55",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://xmlns.com/foaf/0.1/name"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169080948Z",
+          "entityUuid": "1f910691-e540-4339-a452-27f6e055a185",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "2c6c2978-fa19-4271-ad54-3b31c208d501",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://xmlns.com/foaf/0.1/name`",
+          "title": "Name",
+          "uuid": "4437e98d-345a-4046-b362-7e26efad1b66",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#role"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169089528Z",
+          "entityUuid": "6798628d-3da2-4aa0-a661-bebeaf70c390",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "2c6c2978-fa19-4271-ad54-3b31c208d501",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#role`\n##### Description:\nType of contributor",
+          "title": "Role",
+          "uuid": "f94be455-a7a2-4cbc-8c44-c4840ef41d3f",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#ContributorId"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasContributorId"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169094545Z",
+          "entityUuid": "c692570c-fcef-4a33-8c23-db754f3a5ebe",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "2c6c2978-fa19-4271-ad54-3b31c208d501",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#ContributorId`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasContributorId`\n##### Description:\nAny ID used to uniquely identified this Contributor.\n##### Relation Description:\nIdentifier for a contributor person",
+          "title": "Contributor Id",
+          "uuid": "098c6a0c-b1e3-4fce-aa35-8e0f1df9159c"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifier"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169102209Z",
+          "entityUuid": "605b24e8-9e12-409d-aafe-cca8ccaa41bc",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "c692570c-fcef-4a33-8c23-db754f3a5ebe",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifier`\n##### Description:\nThe identifier any of the id classes",
+          "title": "Identifier",
+          "uuid": "206b03a4-0aa0-4f58-94dd-8c2eedda559d",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifierType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169106475Z",
+          "entityUuid": "61ff75ee-edfc-4470-bac8-56db4f77661c",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "c692570c-fcef-4a33-8c23-db754f3a5ebe",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifierType`\n##### Description:\nIdentifier type",
+          "title": "Identifier Type",
+          "uuid": "623a41e8-1b66-4688-8c53-f0f501aa6c09",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Cost"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasCost"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169132323Z",
+          "entityUuid": "4129a163-43f9-4b01-8f4f-53da8b786b9f",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Cost`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasCost`\n##### Description:\nAny Cost related to data management included in this DMP.\n##### Relation Description:\nProvides a list of costs related to data management",
+          "title": "Cost",
+          "uuid": "e78bf446-bc2f-41f9-9e13-87a3738dc481"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#curencyCode"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169139067Z",
+          "entityUuid": "1aabb544-16eb-4dcd-8821-3813c810fb97",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "4129a163-43f9-4b01-8f4f-53da8b786b9f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#curencyCode`\n##### Description:\nA Currency Code used to express values in this Cost.",
+          "title": "Curency Code",
+          "uuid": "fc18cd94-07dd-4a10-b449-253d29ce6f96",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#value"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169146319Z",
+          "entityUuid": "27b05b16-798b-4166-86cc-dd96163382bd",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "4129a163-43f9-4b01-8f4f-53da8b786b9f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#value`\n##### Description:\nValue for cost",
+          "title": "Value",
+          "uuid": "c191b76c-0958-4b3e-9e84-7648acd62ae9",
+          "valueType": "NumberQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#DMPId"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasDMPId"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169158556Z",
+          "entityUuid": "7cad13dd-6e32-4369-b984-37b31db09ca1",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#DMPId`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasDMPId`\n##### Description:\nAny ID used to uniquely identified this DMP.\n##### Relation Description:\nIdentifier for a DMP",
+          "title": "Dmp Id",
+          "uuid": "6f911f95-2ab2-4581-87c8-1a17c8b45bbb"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifier"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169166068Z",
+          "entityUuid": "d48b24ac-8e88-4ed7-a998-b3d8b2dd3bcb",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "7cad13dd-6e32-4369-b984-37b31db09ca1",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifier`\n##### Description:\nThe identifier any of the id classes",
+          "title": "Identifier",
+          "uuid": "598b8a13-757e-4d8c-93e2-79d2d23e8375",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifierType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169170787Z",
+          "entityUuid": "eaa1b560-7bf8-474f-8788-2da18a5d5e7d",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "7cad13dd-6e32-4369-b984-37b31db09ca1",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifierType`\n##### Description:\nIdentifier type",
+          "title": "Identifier Type",
+          "uuid": "0d7303b2-6b6e-4159-8521-08cd119ea970",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Dataset"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasDataset"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169183858Z",
+          "entityUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Dataset`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasDataset`\n##### Description:\nAny Dataset considered under this DMP.\n##### Relation Description:\nThis follows the defintion of Dataset in the W3C DCAT specification. Dataset can be understood as a logical entity depicting data, e.g. raw data. It provides high level information about the data. The granularity of dataset depends on a specific setting. In edge cases it can be a file, but also a collection of files in different formats",
+          "title": "Dataset",
+          "uuid": "451d2e28-c730-4e53-9158-ae495833b029"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://purl.org/dc/terms/issued"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169206549Z",
+          "entityUuid": "0f315f15-8847-4ad6-8f82-a85df32ab890",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://purl.org/dc/terms/issued`\n##### Description:\nIssued date",
+          "title": "Issued",
+          "uuid": "a38fd8f2-b219-4700-bf20-bff1ff0fdc60",
+          "valueType": "DateTimeQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://www.w3.org/ns/dcat#keyword"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169209937Z",
+          "entityUuid": "108b8bd1-8d89-4079-a35e-200b2809b973",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://www.w3.org/ns/dcat#keyword`\n##### Description:\nKeyword to describe the dataset",
+          "title": "Keyword",
+          "uuid": "aed6293e-14e1-48ee-807f-1502d151e7a1",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#dataQualityAssurance"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169213961Z",
+          "entityUuid": "9400b0dd-9df0-413b-8059-c403bc1c5ac8",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#dataQualityAssurance`\n##### Description:\nAssurance quality of data",
+          "title": "Data Quality Assurance",
+          "uuid": "2df114c2-cb02-422e-8192-61d3700f5a59",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#datasetType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169217724Z",
+          "entityUuid": "e78c4b0e-050a-413d-b44c-0cb787ecb39b",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#datasetType`\n##### Description:\nIf appropriate, type according to: DataCite and/or COAR dictionary. Otherwise use the common name for the type, e.g. raw data, software, survey, etc. https://schema.datacite.org/meta/kernel-4.1/doc/DataCite-MetadataKernel_v4.1.pdf http://vocabularies.coar-repositories.org/pubby/resource_type.html",
+          "title": "Dataset Type",
+          "uuid": "224a5a60-8c96-4cf2-b340-27de0a519d28",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#personalData"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169223389Z",
+          "entityUuid": "b6ca6d27-6a4e-4333-aef5-00f88bd1609d",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#personalData`\n##### Description:\nInforms about the presence or absence of personal data in the dataset",
+          "title": "Personal Data",
+          "uuid": "ad96d931-d5b4-457a-8f9a-c552b8c06a57",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#preservationStatement"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169228062Z",
+          "entityUuid": "cf38a842-82c1-4a9f-9910-6c4e1c508257",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#preservationStatement`\n##### Description:\nPreservation statement",
+          "title": "Preservation Statement",
+          "uuid": "4e2dae24-381c-4317-91be-76cbb53b9935",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#sensitiveData"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169232973Z",
+          "entityUuid": "a957aeb0-0846-43f9-9991-749d2e58baf7",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#sensitiveData`\n##### Description:\nInforms about the presence or absence of sensitive data in the dataset",
+          "title": "Sensitive Data",
+          "uuid": "85e5bae5-e3f1-409d-828e-b8c36ad5274a",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#DatasetId"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasDatasetId"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169237049Z",
+          "entityUuid": "6e04454c-505b-448f-ba64-fda879e5a24d",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#DatasetId`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasDatasetId`\n##### Description:\nAny ID used to uniquely identified this Dataset.\n##### Relation Description:\nIdentifier for a dataset",
+          "title": "Dataset Id",
+          "uuid": "02aae3a5-6af4-45d5-af22-b847cd68ec66"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifier"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169244641Z",
+          "entityUuid": "e52fce5a-3aad-42ed-8da5-dce721f57668",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "6e04454c-505b-448f-ba64-fda879e5a24d",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifier`\n##### Description:\nThe identifier any of the id classes",
+          "title": "Identifier",
+          "uuid": "aa7edc08-1054-463a-91f8-588e479352a1",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifierType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169248799Z",
+          "entityUuid": "42dbac77-105b-45c9-9873-592c08bf870f",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "6e04454c-505b-448f-ba64-fda879e5a24d",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifierType`\n##### Description:\nIdentifier type",
+          "title": "Identifier Type",
+          "uuid": "35e86085-1f29-4267-8b11-4d5aa3a1bcc8",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Distribution"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasDistribution"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169261853Z",
+          "entityUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Distribution`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasDistribution`\n##### Description:\nAny Distribution, i.e., specific instance, of this Dataset.\n##### Relation Description:\nThis follows the defintion of Dataset in the W3C DCAT specification. Dataset can be understood as a logical entity depicting data, e.g. raw data. It provides high level information about the data. The granularity of dataset depends on a specific setting. In edge cases it can be a file, but also a collection of files in different formats",
+          "title": "Distribution",
+          "uuid": "ac258492-abb9-4136-ba73-4cf4d79d24eb"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://purl.org/dc/terms/format"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169276033Z",
+          "entityUuid": "9470fb90-1986-40d2-a94c-b2014e3a4f98",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://purl.org/dc/terms/format`\n##### Description:\nFormat according to: https://www.iana.org/assignments/media-types/media-types.xhtml if appropriate, otherwise use the common name for this format",
+          "title": "Format",
+          "uuid": "f63017e8-831a-4042-ba10-57f9dcca9e65",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://www.w3.org/ns/dcat#accessURL"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169278966Z",
+          "entityUuid": "31f26bc2-140b-4a86-8574-baf793154291",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://www.w3.org/ns/dcat#accessURL`\n##### Description:\nA URL of the resource that gives access to a distribution of the dataset. e.g. landing page.",
+          "title": "Access Url",
+          "uuid": "8e544319-0d9b-4e11-9eaa-f15f1dd82af4",
+          "valueType": "UrlQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://www.w3.org/ns/dcat#byteSize"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169281916Z",
+          "entityUuid": "fe34acdb-1d69-4d66-a213-c9155047dddf",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://www.w3.org/ns/dcat#byteSize`\n##### Description:\nByte size",
+          "title": "Byte Size",
+          "uuid": "a11e1544-d992-493c-b307-6a0d6e5bfc5b",
+          "valueType": "NumberQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://www.w3.org/ns/dcat#downloadURL"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169284984Z",
+          "entityUuid": "6690da39-83c4-4a0f-a733-65bd9cdc9e3b",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://www.w3.org/ns/dcat#downloadURL`\n##### Description:\nThe URL of the downloadable file in a given format. E.g. CSV file or RDF file.",
+          "title": "Download Url",
+          "uuid": "f6f4ae5f-68f2-47c1-9303-7328dafb972d",
+          "valueType": "UrlQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#availableUntil"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.16928836Z",
+          "entityUuid": "ceb8415b-f8ce-47ee-9695-7e06aeff4e59",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#availableUntil`\n##### Description:\nIndicates how long this distribution will be/ should be available",
+          "title": "Available Until",
+          "uuid": "d9a708eb-dfc9-4e1a-98a1-26e3fe7a3baf",
+          "valueType": "DateTimeQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#dataAccess"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169292191Z",
+          "entityUuid": "3fedba1c-f7fb-47af-94a1-990c57f71a8d",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#dataAccess`\n##### Description:\nIndicates access mode for data.\nAllowed Values:\n\n    open\n    shared\n    closed",
+          "title": "Data Access",
+          "uuid": "70f2680d-2f37-48d7-822c-17c509d3e536",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Host"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasHost"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169297929Z",
+          "entityUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Host`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasHost`\n##### Description:\nAny Host, i., storage system, where this Distribution has been stored.\n##### Relation Description:\nProvides information on the system where data is stored. It can be used to provide details on a repository where data is deposited, e.g. a Core Trust Seal certified repository located in Europe that uses DOIs. It can also provide details on systems where data is stored and processed during research, e.g. a high performance computer that uses fast storage with two daily backups. ",
+          "title": "Host",
+          "uuid": "a9af6a11-ec4b-4e21-9abb-41e79318e8e0"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#availability"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169303586Z",
+          "entityUuid": "1d99c2f2-5a37-4131-a27a-70f9104402db",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#availability`\n##### Description:\nIndicates the availability of the host",
+          "title": "Availability",
+          "uuid": "823a1c1c-ee47-48ce-8f6c-0786355fd1e2",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#backupFrequency"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169306701Z",
+          "entityUuid": "91efb96d-f8f7-4a55-b07c-a4414cc75a6c",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#backupFrequency`\n##### Description:\nBackup frequency",
+          "title": "Backup Frequency",
+          "uuid": "79df273d-6f0a-45c0-a7cb-a2655bdbf590",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#backupType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169310195Z",
+          "entityUuid": "473e7dc3-b0d4-4509-8cb4-5361157d6e89",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#backupType`\n##### Description:\nBackup type",
+          "title": "Backup Type",
+          "uuid": "288c8103-2d66-4b1a-b144-55c432a23354",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#certifiedWith"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.16931327Z",
+          "entityUuid": "cea63434-875e-4ac7-8bf2-d7214c3faab0",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#certifiedWith`\n##### Description:\nRepository certified to a recognised standard\nSuggested values:\n\n    din31644\n    dini-zertifikat\n    dsa\n    iso16363\n    iso16919\n    trac\n    wds\n    coretrustseal\n    none\n    other\n    unknown",
+          "title": "Certified With",
+          "uuid": "c8cce944-1a80-4bb9-b2a0-b50ccacc4362",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#geoLocation"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.16931762Z",
+          "entityUuid": "8ac75add-4662-4144-9356-6cbbf7ccc4ca",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#geoLocation`\n##### Description:\nA Country where a Host, i.e. storage system, is located.",
+          "title": "Geo Location",
+          "uuid": "ac827e26-8369-4a27-acf2-4d28fc693e81",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#pidSystem"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169322703Z",
+          "entityUuid": "41e3c150-14ab-4d1e-bc26-8a13b7eb7297",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#pidSystem`\n##### Description:\nPID System\nSuggested values:\n\n    ark\n    arxiv\n    bibcode\n    doi\n    ean13\n    eissn\n    handle\n    igsn\n    isbn\n    issn\n    istc\n    lissn\n    lsid\n    pmid\n    purl\n    upc\n    url\n    urn\n    none\n    unknown\n    other",
+          "title": "Pid System",
+          "uuid": "2d344c90-e118-4bdb-991c-ce3a5be2b7bf",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#storageType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169328174Z",
+          "entityUuid": "f5c7ea5a-8007-4394-a129-693c344c2eba",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#storageType`\n##### Description:\nThe type of storage required",
+          "title": "Storage Type",
+          "uuid": "67b077ef-c732-4aa4-9ce0-7e512d8c7ab9",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#supportVersioning"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169332956Z",
+          "entityUuid": "92ec856d-84bd-4b02-81e1-9b6e936e0ee1",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#supportVersioning`\n##### Description:\nInforms of the support for versioning\n  Allowed Values:\n\n    yes\n    no\n    unknown",
+          "title": "Support Versioning",
+          "uuid": "a0f42a69-27db-4266-b542-65c3fccf440a",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#url"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.16933782Z",
+          "entityUuid": "d3dc1af8-ab48-4fa1-9e32-1deda92a8613",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "9c529c84-b82f-4796-a761-0ea49e7de5c2",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#url`\n##### Description:\nThe URL of the system hosting a distribution of a dataset",
+          "title": "Url",
+          "uuid": "19724a05-abed-4b5c-8e0a-6c42c38d0bc1",
+          "valueType": "UrlQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#License"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasLicense"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169379682Z",
+          "entityUuid": "4eac23b6-80a2-4e00-9a6f-b9b6e803a25d",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "fb78c822-df57-4625-805c-b26095b6b23a",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#License`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasLicense`\n##### Description:\nA License used for this Distribution.\n##### Relation Description:\nUsed to indicate the license under which data (each specific Distribution) will be made available. It also allows for modelling embargoes. ",
+          "title": "License",
+          "uuid": "9dc89a1f-cdfb-435a-984c-fc0cc673b2e8"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#licenseRef"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169389268Z",
+          "entityUuid": "424adea4-8b4d-4df4-95e3-d7fd50f01470",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "4eac23b6-80a2-4e00-9a6f-b9b6e803a25d",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#licenseRef`\n##### Description:\n",
+          "title": "License Ref",
+          "uuid": "0f9eb36e-3764-4ab2-a7be-8d5b6d63053f",
+          "valueType": "UrlQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#startDate"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169394447Z",
+          "entityUuid": "49589a49-c2ff-4df9-aa2b-7b06a1461251",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "4eac23b6-80a2-4e00-9a6f-b9b6e803a25d",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#startDate`\n##### Description:\nIf date is set in the future, it indicates embargo period.",
+          "title": "Start Date",
+          "uuid": "ceff844b-fa51-40f1-8088-36f2b5585d32",
+          "valueType": "DateTimeQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Metadata"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasMetadata"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169432099Z",
+          "entityUuid": "a148855f-59dd-4fc1-ac3c-a714862cabb5",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Metadata`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasMetadata`\n##### Description:\nA Metadata standard used to describe data in this Dataset.\n##### Relation Description:\nProvides a pointer to a metadata standard used to describe the data. It does not contain any actual metadata relating to the dataset. ",
+          "title": "Metadata",
+          "uuid": "8cd8da88-ea15-46ae-942f-e597d4c4280b"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#MetadataStandardId"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasMetadataStandardId"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169445312Z",
+          "entityUuid": "530fa420-2eef-4465-9a8a-8bd9f49320b5",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "a148855f-59dd-4fc1-ac3c-a714862cabb5",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#MetadataStandardId`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasMetadataStandardId`\n##### Description:\nAny ID used to uniquely identified this Metadata standard.\n##### Relation Description:\nIdentifier for the metadata standard used.",
+          "title": "Metadata Standard Id",
+          "uuid": "c7839b53-f277-4a9f-b6e1-0c5cf5cfee5b"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifier"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169452931Z",
+          "entityUuid": "ea9b2c47-fc54-409c-827e-aac85fdf4cd3",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "530fa420-2eef-4465-9a8a-8bd9f49320b5",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifier`\n##### Description:\nThe identifier any of the id classes",
+          "title": "Identifier",
+          "uuid": "1d74d28f-bf2f-445e-bb1d-928cb0bbddbf",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifierType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.16945689Z",
+          "entityUuid": "dd0a5fee-1dd3-4409-8bbd-43ae401077e0",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "530fa420-2eef-4465-9a8a-8bd9f49320b5",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifierType`\n##### Description:\nIdentifier type",
+          "title": "Identifier Type",
+          "uuid": "01a09c54-ea38-48e7-937e-9ddca5010f89",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#TechnicalResource"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasTechnicalResource"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169470387Z",
+          "entityUuid": "31b810a1-8d11-4c11-9390-6e52d7175b25",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "46bc0156-097f-4345-8c55-56a24621a53f",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#TechnicalResource`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasTechnicalResource`\n##### Description:\nAny Technical Resource, e.g, microscope, needed/used to create or process the data in this Dataset.\n##### Relation Description:\nFor specifying equipment needed/used to create or process the data, e.g. a microscope, etc. ",
+          "title": "Technical Resource",
+          "uuid": "93d30c2c-945b-4aad-a4b3-74224e719465"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "http://xmlns.com/foaf/0.1/name"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169476235Z",
+          "entityUuid": "3be49071-08a4-48e1-8013-37667ac7e23e",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "31b810a1-8d11-4c11-9390-6e52d7175b25",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `http://xmlns.com/foaf/0.1/name`",
+          "title": "Name",
+          "uuid": "56d6031a-f0e9-4892-bf18-08e0524c13d2",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Project"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasProject"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169515534Z",
+          "entityUuid": "ad623d63-fa5e-43a5-8910-90aab6b8328a",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "24c821e2-0e15-4535-bbd8-7b433cc2e8eb",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Project`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasProject`\n##### Description:\nAny Project associated with this DMP.\n##### Relation Description:\nDescribes the project associated with the DMP, if applicable. It can be used to describe any type of project: that is, not only funded projects, but also internal projects, PhD theses, etc. ",
+          "title": "Project",
+          "uuid": "cd5bd5ac-48d3-4f11-8501-7d3c777fdaf9"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#end"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169527193Z",
+          "entityUuid": "57dd8fbd-446f-4819-bca6-c515d8945508",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "ad623d63-fa5e-43a5-8910-90aab6b8328a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#end`\n##### Description:\nProject end date",
+          "title": "End",
+          "uuid": "bcf2f871-51f1-46a5-b5c6-3da79a141818",
+          "valueType": "DateTimeQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#start"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169533371Z",
+          "entityUuid": "9266ee35-4ec9-452a-9a73-2aa799213670",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "ad623d63-fa5e-43a5-8910-90aab6b8328a",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#start`\n##### Description:\nProject start date",
+          "title": "Start",
+          "uuid": "5f988f4c-4f1e-4ba6-92fe-993c067bf3d3",
+          "valueType": "DateTimeQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#Funding"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasFunding"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169537273Z",
+          "entityUuid": "244a2d7c-1d09-45fc-98e7-2f0f2023870d",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "ad623d63-fa5e-43a5-8910-90aab6b8328a",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#Funding`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasFunding`\n##### Description:\nAny Funding granted for this Project.\n##### Relation Description:\nFor specifying details on funded projects, e.g. NSF of EC funded projects. ",
+          "title": "Funding",
+          "uuid": "69381a49-eb65-42f1-b9ed-6c7a2aabd272"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#fundingStatus"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169553476Z",
+          "entityUuid": "447bbd2a-09b0-405f-a422-613a8542df67",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "244a2d7c-1d09-45fc-98e7-2f0f2023870d",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#fundingStatus`\n##### Description:\nTo express different phases of project lifecycle.\nAllowed Values:\n\n    planned\n    applied\n    granted\n    rejected",
+          "title": "Funding Status",
+          "uuid": "3133ad19-5245-4d1a-8a62-b6464577a845",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#FunderId"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasFunderId"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169558482Z",
+          "entityUuid": "288e2ea3-e1b6-45a6-be13-efbf906714e4",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "244a2d7c-1d09-45fc-98e7-2f0f2023870d",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#FunderId`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasFunderId`\n##### Description:\nAny ID used to uniquely identified this Funder.\n##### Relation Description:\nIdentifier for funders : it is recommended to use CrossRef Funder Registry. ",
+          "title": "Funder Id",
+          "uuid": "8dbf2e58-f1d7-41cc-af72-3d675a42921e"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifier"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169565914Z",
+          "entityUuid": "58bdf0f4-3eaf-443c-b953-ca54c6e868c0",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "288e2ea3-e1b6-45a6-be13-efbf906714e4",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifier`\n##### Description:\nThe identifier any of the id classes",
+          "title": "Identifier",
+          "uuid": "d8d4e213-35fa-4f47-b0cc-284f24a209c4",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifierType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169569871Z",
+          "entityUuid": "c35af2af-ea1f-47bb-ab5a-37457493e058",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "288e2ea3-e1b6-45a6-be13-efbf906714e4",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifierType`\n##### Description:\nIdentifier type",
+          "title": "Identifier Type",
+          "uuid": "b8442ef1-d6b5-4557-bf15-afd52601c9b7",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#GrantId"
+            },
+            {
+              "key": "rdfRelation",
+              "value": "https://w3id.org/dcso/ns/core#hasGrantId"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169583311Z",
+          "entityUuid": "e68834af-25f2-4ba2-a026-441dcd038a5f",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "244a2d7c-1d09-45fc-98e7-2f0f2023870d",
+          "questionType": "ListQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#GrantId`\n- **Relation:** `https://w3id.org/dcso/ns/core#hasGrantId`\n##### Description:\nAny ID used to uniquely identified a Grant associated to this Funder.\n##### Relation Description:\nIdentifier for grant",
+          "title": "Grant Id",
+          "uuid": "c79091a8-3068-47c3-994f-8d8d2b657f97"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifier"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169591315Z",
+          "entityUuid": "34590cae-4380-402b-8a16-4a9b2c5bb596",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "e68834af-25f2-4ba2-a026-441dcd038a5f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifier`\n##### Description:\nThe identifier any of the id classes",
+          "title": "Identifier",
+          "uuid": "c7c75ee4-0b68-45aa-913e-a385e1e13208",
+          "valueType": "StringQuestionValueType"
+        },
+        {
+          "annotations": [
+            {
+              "key": "rdfType",
+              "value": "https://w3id.org/dcso/ns/core#identifierType"
+            }
+          ],
+          "createdAt": "2024-10-16T09:02:28.169595424Z",
+          "entityUuid": "50dbec45-ee92-46f0-917d-5bee6bca8a28",
+          "eventType": "AddQuestionEvent",
+          "parentUuid": "e68834af-25f2-4ba2-a026-441dcd038a5f",
+          "questionType": "ValueQuestion",
+          "requiredPhaseUuid": null,
+          "tagUuids": [],
+          "text": "##### RDF:\n- **Type:** `https://w3id.org/dcso/ns/core#identifierType`\n##### Description:\nIdentifier type",
+          "title": "Identifier Type",
+          "uuid": "593dd5df-78a4-4d6e-8c66-8381c3ebf5a9",
+          "valueType": "StringQuestionValueType"
+        }
+      ],
+      "forkOfPackageId": null,
+      "id": "datenzee:dcso:1.0.0",
+      "kmId": "dcso",
+      "license": "",
+      "mergeCheckpointPackageId": null,
+      "metamodelVersion": 15,
+      "name": "DCSO",
+      "nonEditable": false,
+      "organizationId": "datenzee",
+      "phase": "ReleasedPackagePhase",
+      "previousPackageId": null,
+      "readme": "",
+      "version": "1.0.0"
+    }
+  ],
+  "version": "1.0.0"
+}

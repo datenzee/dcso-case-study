@@ -1,0 +1,9 @@
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    <span>{{ rdf_helpers.get_object_by(graph, object, 'https://w3id.org/dcso/ns/core#preservationStatement') }}</span>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

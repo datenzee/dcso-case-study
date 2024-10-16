@@ -1,0 +1,15 @@
+{% import 'src/components/gen/DateTime_5b3a43a136aa483caa187e0e4dece94c.html.jinja2' as DateTime_5b3a43a136aa483caa187e0e4dece94c %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    <strong style="display: block">
+        {{ DateTime_5b3a43a136aa483caa187e0e4dece94c.component(graph, depth + 1, object) }}
+        
+    </strong>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

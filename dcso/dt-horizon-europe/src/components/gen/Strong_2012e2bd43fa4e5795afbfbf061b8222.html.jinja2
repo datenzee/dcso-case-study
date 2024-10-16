@@ -1,0 +1,15 @@
+{% import 'src/components/gen/Content_a44a18916fe04d1eae5446832505ce61.html.jinja2' as Content_a44a18916fe04d1eae5446832505ce61 %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        <div style="margin-top: 2em; font-size: 18pt; color: #333; text-align: center;">
+    {#  Customization (before): end  #}
+    <strong style="display: block">
+        {{ Content_a44a18916fe04d1eae5446832505ce61.component(graph, depth + 1, object) }}
+        
+    </strong>
+    {#  Customization (after): start  #}
+        </div>
+    {#  Customization (after): end  #}
+{%- endmacro -%}

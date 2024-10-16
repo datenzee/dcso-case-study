@@ -1,0 +1,17 @@
+{% import 'src/components/gen/Heading_808e3292aff44baab57006df9c498eb7.html.jinja2' as Heading_808e3292aff44baab57006df9c498eb7 %}
+{% import 'src/components/gen/DataComponent_f454d3d0d2ac43bbbbd64605c58dc0e6.html.jinja2' as DataComponent_f454d3d0d2ac43bbbbd64605c58dc0e6 %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    <div>
+        {{ Heading_808e3292aff44baab57006df9c498eb7.component(graph, depth + 1, object) }}
+        {{ DataComponent_f454d3d0d2ac43bbbbd64605c58dc0e6.component(graph, depth + 1, object) }}
+        
+    </div>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

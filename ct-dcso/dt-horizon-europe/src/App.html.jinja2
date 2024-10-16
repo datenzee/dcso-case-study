@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+       @page {
+            size: A4;
+
+            @bottom-left {
+                border-top: 1px solid black;
+                content: '';
+                display: block;
+                width: 100%;
+                padding-top: 1rem;
+                vertical-align: top;
+                font-family: "Open Sans", sans-serif;
+                font-size: 10pt;
+            }
+            @bottom-center {
+                border-top: 1px solid black;
+                content: '';
+                display: block;
+                width: 100%;
+                padding-top: 1rem;
+                vertical-align: top;
+                font-family: "Open Sans", sans-serif;
+                font-size: 10pt;
+            }
+            @bottom-center {
+                border-top: 1px solid black;
+                content: counter(page) " / " counter(pages);
+                display: block;
+                width: 100%;
+                padding-top: 1rem;
+                vertical-align: top;
+                font-family: "Open Sans", sans-serif;
+                font-size: 10pt;
+            }
+        }
+
+        @page :blank {
+            @top-center {
+                content: none
+            }
+            @bottom-left {
+                content: none
+            }
+            @bottom-center {
+                content: none
+            }
+            @bottom-right {
+                content: none
+            }
+        }
+
+        @page :first {
+            @top-center {
+                content: none
+            }
+            @bottom-left {
+                content: none
+            }
+            @bottom-center {
+                content: none
+            }
+            @bottom-right {
+                content: none
+            }
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            page-break-inside: avoid !important;
+            page-break-after: avoid !important;
+        }
+
+        html, body {
+            height: 100%;
+            padding: 1em;
+        }
+
+        body {
+            font-family: "Open Sans", sans-serif;
+            font-size: 11pt;
+            counter-reset: section;
+            counter-reset: question;
+            max-width: 21cm;
+            margin: 0 auto;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        /* Sections */
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        /* First page */
+
+        header {
+          height: 24cm;
+          box-sizing: border-box;
+          page-break-after: always;
+          position: relative;
+        }
+
+        header h1 {
+          margin: 2em;
+          font-size: 24pt;
+          text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    {%- set graph = rdflib.Graph() -%}
+    {%- do graph.parse(data=document.content.decode('utf-8'), format='ttl') -%}
+
+    
+    {%- import 'src/components/gen/Root.html.jinja2' as Root -%}
+
+    
+    {%- set object = 'https://w3id.org/dcso/ns/core#DMP' -%}
+    {%- set subject = rdf_helpers.get_subject_by(graph, 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'https://w3id.org/dcso/ns/core#DMP') -%}
+    {%- set depth = 0 -%}
+
+    
+    <main>
+        {{ Root.component(graph, depth, subject) }}
+    </main>
+
+</body>
+</html>

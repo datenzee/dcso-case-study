@@ -1,0 +1,13 @@
+{% import 'src/components/vo/Heading.html.jinja2' as Heading %}
+{% import 'src/components/gen/Content_8010a1d17b4b44b79be1ee6a9dd8bd3d.html.jinja2' as Content_8010a1d17b4b44b79be1ee6a9dd8bd3d %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    {%- call Heading.component(depth) -%}{{ Content_8010a1d17b4b44b79be1ee6a9dd8bd3d.component(graph, depth + 1, object) }}{%- endcall -%}
+    {#  Customization (after): start  #}
+        <p>We will be using the following technical resources:</p>
+    {#  Customization (after): end  #}
+{%- endmacro -%}

@@ -1,0 +1,9 @@
+{% import 'src/components/vo/IterativeContainer.html.jinja2' as IterativeContainer %}
+{% import 'src/components/gen/TechnicalResource.html.jinja2' as TechnicalResource %}
+
+{%- macro component(graph, depth, object) -%}
+    {%- set predicate = 'https://w3id.org/dcso/ns/core#hasTechnicalResource' -%}
+    {% call(slotObj) IterativeContainer.component(graph, depth, object, predicate) %}
+        {{ TechnicalResource.component(graph, depth, slotObj) }}
+    {% endcall %}
+{%- endmacro -%}

@@ -1,0 +1,8 @@
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    {%- set predicate = 'http://purl.org/dc/terms/issued' -%}{{ rdf_helpers.get_object_by(graph, object, predicate)|datetime_format("%d %b %Y %H:%M") }}{#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}}

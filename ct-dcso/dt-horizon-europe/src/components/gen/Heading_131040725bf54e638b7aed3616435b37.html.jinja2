@@ -1,0 +1,16 @@
+{% import 'src/components/vo/Heading.html.jinja2' as Heading %}
+{% import 'src/components/gen/Content_d7c938c1a33f4821b0f9f443c5068ce6.html.jinja2' as Content_d7c938c1a33f4821b0f9f443c5068ce6 %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        <header>
+        <center>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/European_Commission_Document_SVG.svg/320px-European_Commission_Document_SVG.svg.png" height="78" width="160" style="max-width: 160px;" />
+    {#  Customization (before): end  #}
+    {%- call Heading.component(depth) -%}{{ Content_d7c938c1a33f4821b0f9f443c5068ce6.component(graph, depth + 1, object) }}{%- endcall -%}
+    {#  Customization (after): start  #}
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/320px-Flag_of_Europe.svg.png" height="213" width="320" style="max-width: 320px;" />
+        </center>
+    {#  Customization (after): end  #}
+{%- endmacro -%}

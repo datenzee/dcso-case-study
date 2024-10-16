@@ -1,0 +1,15 @@
+{% import 'src/components/gen/Content_ba17293bc0c6421b93876a63c96ca165.html.jinja2' as Content_ba17293bc0c6421b93876a63c96ca165 %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        <div style="page-break-before: always;"></div>
+    {#  Customization (before): end  #}
+    <div>
+        {{ Content_ba17293bc0c6421b93876a63c96ca165.component(graph, depth + 1, object) }}
+        
+    </div>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

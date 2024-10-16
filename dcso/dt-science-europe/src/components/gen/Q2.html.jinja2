@@ -1,0 +1,11 @@
+{% import 'src/components/gen/Container_d547f634a09d45c4a6009298ea5eb2af.html.jinja2' as Container_d547f634a09d45c4a6009298ea5eb2af %}
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        {%- set depth = depth - 1 -%}
+    {#  Customization (before): end  #}
+    {{ Container_d547f634a09d45c4a6009298ea5eb2af.component(graph, depth, object) }}
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

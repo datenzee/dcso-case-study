@@ -1,0 +1,12 @@
+{% import 'src/components/vo/Heading.html.jinja2' as Heading %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    {%- call Heading.component(depth) -%}{%- endcall -%}
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

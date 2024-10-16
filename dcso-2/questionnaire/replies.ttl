@@ -1,0 +1,120 @@
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#DMP> .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <http://purl.org/dc/terms/title> "Exploring Evolutionary Mechanisms in Biodiversity DMP" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#created> "2024-09-01 12:00" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#ethicalIssueDescription> "The exploration of evolutionary mechanisms in biodiversity raises several important ethical considerations. One key issue is the potential impact of genetic research on species conservation and manipulation. As we gain the ability to modify genomes, there is a risk of unintentional harm to ecosystems or species integrity. For example, genetic interventions meant to aid in species preservation could have unforeseen consequences, such as altering natural evolutionary processes or upsetting ecological balances." .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#ethicalIssuesExist> "yes" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#ethicalIssuesReport> "http://example.com/ethical-issues-report" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#modified> "2024-10-16 12:00" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#report> "http://example.com/report" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasContact> <https://datenzee.ds-wizard.org/projects/#Contact_85506a4a-a9c0-463e-877c-741c1db849c4> .
+<https://datenzee.ds-wizard.org/projects/#Contact_85506a4a-a9c0-463e-877c-741c1db849c4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Contact> .
+<https://datenzee.ds-wizard.org/projects/#Contact_85506a4a-a9c0-463e-877c-741c1db849c4> <http://xmlns.com/foaf/0.1/mbox> "john.doe@example.com" .
+<https://datenzee.ds-wizard.org/projects/#Contact_85506a4a-a9c0-463e-877c-741c1db849c4> <http://xmlns.com/foaf/0.1/name> "John Doe" .
+<https://datenzee.ds-wizard.org/projects/#Contact_85506a4a-a9c0-463e-877c-741c1db849c4> <https://w3id.org/dcso/ns/core#hasContactId> <https://datenzee.ds-wizard.org/projects/#ContactId_04f69ae1-341b-4358-b94e-7ca397442fa0> .
+<https://datenzee.ds-wizard.org/projects/#ContactId_04f69ae1-341b-4358-b94e-7ca397442fa0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#ContactId> .
+<https://datenzee.ds-wizard.org/projects/#ContactId_04f69ae1-341b-4358-b94e-7ca397442fa0> <https://w3id.org/dcso/ns/core#identifier> "ORCID" .
+<https://datenzee.ds-wizard.org/projects/#ContactId_04f69ae1-341b-4358-b94e-7ca397442fa0> <https://w3id.org/dcso/ns/core#identifierType> "0000-1234-5678-9101" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasContributor> <https://datenzee.ds-wizard.org/projects/#Contributor_f58dad1c-ca36-4a1d-b9bc-5e8306defed0> .
+<https://datenzee.ds-wizard.org/projects/#Contributor_f58dad1c-ca36-4a1d-b9bc-5e8306defed0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Contributor> .
+<https://datenzee.ds-wizard.org/projects/#Contributor_f58dad1c-ca36-4a1d-b9bc-5e8306defed0> <http://xmlns.com/foaf/0.1/mbox> "john.doe@example.com" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_f58dad1c-ca36-4a1d-b9bc-5e8306defed0> <http://xmlns.com/foaf/0.1/name> "John Doe" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_f58dad1c-ca36-4a1d-b9bc-5e8306defed0> <https://w3id.org/dcso/ns/core#role> "Principal Investigator" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_f58dad1c-ca36-4a1d-b9bc-5e8306defed0> <https://w3id.org/dcso/ns/core#hasContributorId> <https://datenzee.ds-wizard.org/projects/#ContributorId_d3328683-e72b-40a7-9c4e-4b57db670328> .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_d3328683-e72b-40a7-9c4e-4b57db670328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#ContributorId> .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_d3328683-e72b-40a7-9c4e-4b57db670328> <https://w3id.org/dcso/ns/core#identifier> "0000-1234-5678-9101" .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_d3328683-e72b-40a7-9c4e-4b57db670328> <https://w3id.org/dcso/ns/core#identifierType> "DOI" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasContributor> <https://datenzee.ds-wizard.org/projects/#Contributor_a98d9337-6eb7-4e8a-ac5b-075d7176b28c> .
+<https://datenzee.ds-wizard.org/projects/#Contributor_a98d9337-6eb7-4e8a-ac5b-075d7176b28c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Contributor> .
+<https://datenzee.ds-wizard.org/projects/#Contributor_a98d9337-6eb7-4e8a-ac5b-075d7176b28c> <http://xmlns.com/foaf/0.1/mbox> "richard.hue@example.com" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_a98d9337-6eb7-4e8a-ac5b-075d7176b28c> <http://xmlns.com/foaf/0.1/name> "Richard Hue" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_a98d9337-6eb7-4e8a-ac5b-075d7176b28c> <https://w3id.org/dcso/ns/core#role> "Junior researcher" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_a98d9337-6eb7-4e8a-ac5b-075d7176b28c> <https://w3id.org/dcso/ns/core#hasContributorId> <https://datenzee.ds-wizard.org/projects/#ContributorId_e1c1acf3-7690-41bc-ae9c-de032a0466f0> .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_e1c1acf3-7690-41bc-ae9c-de032a0466f0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#ContributorId> .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_e1c1acf3-7690-41bc-ae9c-de032a0466f0> <https://w3id.org/dcso/ns/core#identifier> "0000-1234-5678-9102" .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_e1c1acf3-7690-41bc-ae9c-de032a0466f0> <https://w3id.org/dcso/ns/core#identifierType> "ORCID" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasContributor> <https://datenzee.ds-wizard.org/projects/#Contributor_9c9d57de-9e5b-4c6b-9333-72d5f72ca903> .
+<https://datenzee.ds-wizard.org/projects/#Contributor_9c9d57de-9e5b-4c6b-9333-72d5f72ca903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Contributor> .
+<https://datenzee.ds-wizard.org/projects/#Contributor_9c9d57de-9e5b-4c6b-9333-72d5f72ca903> <http://xmlns.com/foaf/0.1/mbox> "calvin.poe@example.com" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_9c9d57de-9e5b-4c6b-9333-72d5f72ca903> <http://xmlns.com/foaf/0.1/name> "Calvin Poe" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_9c9d57de-9e5b-4c6b-9333-72d5f72ca903> <https://w3id.org/dcso/ns/core#role> "Data steward" .
+<https://datenzee.ds-wizard.org/projects/#Contributor_9c9d57de-9e5b-4c6b-9333-72d5f72ca903> <https://w3id.org/dcso/ns/core#hasContributorId> <https://datenzee.ds-wizard.org/projects/#ContributorId_f38ff684-6d1c-45ae-8865-4cd397413067> .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_f38ff684-6d1c-45ae-8865-4cd397413067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#ContributorId> .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_f38ff684-6d1c-45ae-8865-4cd397413067> <https://w3id.org/dcso/ns/core#identifier> "0000-1234-5678-9103" .
+<https://datenzee.ds-wizard.org/projects/#ContributorId_f38ff684-6d1c-45ae-8865-4cd397413067> <https://w3id.org/dcso/ns/core#identifierType> "ORCID" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasCost> <https://datenzee.ds-wizard.org/projects/#Cost_df5a7aaf-f348-45a4-94ed-8ca869cb6b27> .
+<https://datenzee.ds-wizard.org/projects/#Cost_df5a7aaf-f348-45a4-94ed-8ca869cb6b27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Cost> .
+<https://datenzee.ds-wizard.org/projects/#Cost_df5a7aaf-f348-45a4-94ed-8ca869cb6b27> <http://purl.org/dc/terms/title> "Wage Costs of the Project" .
+<https://datenzee.ds-wizard.org/projects/#Cost_df5a7aaf-f348-45a4-94ed-8ca869cb6b27> <http://purl.org/dc/terms/description> "Wage costs of the project refer to the total financial expenses associated with compensating the workforce involved in the project's execution. This includes salaries, wages, and any additional benefits provided to employees, contractors, or consultants directly contributing to the project's deliverables. Wage costs often encompass not only base pay but also employer contributions to taxes, insurance, pension plans, and any overtime or bonuses that may apply." .
+<https://datenzee.ds-wizard.org/projects/#Cost_df5a7aaf-f348-45a4-94ed-8ca869cb6b27> <https://w3id.org/dcso/ns/core#curencyCode> "CZK" .
+<https://datenzee.ds-wizard.org/projects/#Cost_df5a7aaf-f348-45a4-94ed-8ca869cb6b27> <https://w3id.org/dcso/ns/core#value> "10000000" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasDMPId> <https://datenzee.ds-wizard.org/projects/#DMPId_2e1075c1-9fcf-4d0b-a52f-0badbe271105> .
+<https://datenzee.ds-wizard.org/projects/#DMPId_2e1075c1-9fcf-4d0b-a52f-0badbe271105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#DMPId> .
+<https://datenzee.ds-wizard.org/projects/#DMPId_2e1075c1-9fcf-4d0b-a52f-0badbe271105> <https://w3id.org/dcso/ns/core#identifier> "10.1080/15588742.2001" .
+<https://datenzee.ds-wizard.org/projects/#DMPId_2e1075c1-9fcf-4d0b-a52f-0badbe271105> <https://w3id.org/dcso/ns/core#identifierType> "DOI" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasDataset> <https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Dataset> .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <http://purl.org/dc/terms/title> "BioDiversityGenomics" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <http://purl.org/dc/terms/description> "The BioDiversityGenomics dataset is a comprehensive collection of genetic and ecological data focused on understanding the genetic diversity and evolutionary adaptations of various species across multiple ecosystems. The dataset includes genomic sequences, population genetics data, species distribution information, and environmental variables (such as climate, habitat type, and human impact factors)." .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <http://purl.org/dc/terms/issued> "2024-10-01" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <http://www.w3.org/ns/dcat#keyword> "diabetes" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#dataQualityAssurance> "Data quality assurance is managed by the university's data steward" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#personalData> "There are personal data about patients" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#preservationStatement> "Data will be store in university data warehouse" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#sensitiveData> "There are sensitive data in the dataset" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#hasDatasetId> <https://datenzee.ds-wizard.org/projects/#DatasetId_82beb881-fc77-43df-954f-3a8102c2d8bb> .
+<https://datenzee.ds-wizard.org/projects/#DatasetId_82beb881-fc77-43df-954f-3a8102c2d8bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#DatasetId> .
+<https://datenzee.ds-wizard.org/projects/#DatasetId_82beb881-fc77-43df-954f-3a8102c2d8bb> <https://w3id.org/dcso/ns/core#identifier> "10.1080/15588742.2002" .
+<https://datenzee.ds-wizard.org/projects/#DatasetId_82beb881-fc77-43df-954f-3a8102c2d8bb> <https://w3id.org/dcso/ns/core#identifierType> "DOI" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#hasDistribution> <https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Distribution> .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <http://purl.org/dc/terms/title> "CSV Distribution" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <http://purl.org/dc/terms/description> "CSV files contains the data of patients" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <http://purl.org/dc/terms/format> "text/csv" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <http://www.w3.org/ns/dcat#accessURL> "http://example.com/distribution-access-url" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <http://www.w3.org/ns/dcat#byteSize> "10000000000" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <https://w3id.org/dcso/ns/core#availableUntil> "2028-10-12 12:00" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <https://w3id.org/dcso/ns/core#dataAccess> "closed" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <https://w3id.org/dcso/ns/core#hasHost> <https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Host> .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <http://purl.org/dc/terms/title> "National Medical Storage" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#availability> "24/7" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#backupFrequency> "daily" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#backupType> "Tapes" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#certifiedWith> "iso16363" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#geoLocation> "CZE" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#pidSystem> "doi" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#storageType> "tapes" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#supportVersioning> "yes" .
+<https://datenzee.ds-wizard.org/projects/#Host_7d1c3e11-0098-4c41-96ef-52a21c3ad158> <https://w3id.org/dcso/ns/core#url> "http://example.com/distribution-storage" .
+<https://datenzee.ds-wizard.org/projects/#Distribution_24479f6e-ad8c-4a0f-a6e2-d61b87c12a47> <https://w3id.org/dcso/ns/core#hasLicense> <https://datenzee.ds-wizard.org/projects/#License_1fc5e305-c218-40c4-8771-5a8688ba5f93> .
+<https://datenzee.ds-wizard.org/projects/#License_1fc5e305-c218-40c4-8771-5a8688ba5f93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#License> .
+<https://datenzee.ds-wizard.org/projects/#License_1fc5e305-c218-40c4-8771-5a8688ba5f93> <https://w3id.org/dcso/ns/core#licenseRef> "https://www.apache.org/licenses/LICENSE-2.0" .
+<https://datenzee.ds-wizard.org/projects/#License_1fc5e305-c218-40c4-8771-5a8688ba5f93> <https://w3id.org/dcso/ns/core#startDate> "2024-10-16 12:00" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#hasMetadata> <https://datenzee.ds-wizard.org/projects/#Metadata_c1bea2c5-3b61-48e5-a181-2cc5f13383af> .
+<https://datenzee.ds-wizard.org/projects/#Metadata_c1bea2c5-3b61-48e5-a181-2cc5f13383af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Metadata> .
+<https://datenzee.ds-wizard.org/projects/#Metadata_c1bea2c5-3b61-48e5-a181-2cc5f13383af> <http://purl.org/dc/terms/description> "Metadata are described in attached document" .
+<https://datenzee.ds-wizard.org/projects/#Metadata_c1bea2c5-3b61-48e5-a181-2cc5f13383af> <https://w3id.org/dcso/ns/core#hasMetadataStandardId> <https://datenzee.ds-wizard.org/projects/#MetadataStandardId_e1606c94-fcac-4342-9bb4-e751e89b936a> .
+<https://datenzee.ds-wizard.org/projects/#MetadataStandardId_e1606c94-fcac-4342-9bb4-e751e89b936a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#MetadataStandardId> .
+<https://datenzee.ds-wizard.org/projects/#MetadataStandardId_e1606c94-fcac-4342-9bb4-e751e89b936a> <https://w3id.org/dcso/ns/core#identifier> "10.1080/15588742.2003" .
+<https://datenzee.ds-wizard.org/projects/#MetadataStandardId_e1606c94-fcac-4342-9bb4-e751e89b936a> <https://w3id.org/dcso/ns/core#identifierType> "DOI" .
+<https://datenzee.ds-wizard.org/projects/#Dataset_384fe7a2-2e9d-45cf-af40-f52eab1b9176> <https://w3id.org/dcso/ns/core#hasTechnicalResource> <https://datenzee.ds-wizard.org/projects/#TechnicalResource_70102e8f-dcef-4d27-acf5-788e8221ed2d> .
+<https://datenzee.ds-wizard.org/projects/#TechnicalResource_70102e8f-dcef-4d27-acf5-788e8221ed2d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#TechnicalResource> .
+<https://datenzee.ds-wizard.org/projects/#TechnicalResource_70102e8f-dcef-4d27-acf5-788e8221ed2d> <http://purl.org/dc/terms/description> "The Microscope Best 2.04 is a cutting-edge, high-resolution optical microscope designed for advanced biological research, featuring enhanced imaging capabilities and precise magnification control for detailed cellular and molecular analysis." .
+<https://datenzee.ds-wizard.org/projects/#TechnicalResource_70102e8f-dcef-4d27-acf5-788e8221ed2d> <http://xmlns.com/foaf/0.1/name> "Microscope Best 2.04" .
+<https://datenzee.ds-wizard.org/projects/#DMP_2848addd-ca04-4355-b155-f211cc8c63ac> <https://w3id.org/dcso/ns/core#hasProject> <https://datenzee.ds-wizard.org/projects/#Project_a48e86ce-6a99-40b1-acc5-94d58993bdda> .
+<https://datenzee.ds-wizard.org/projects/#Project_a48e86ce-6a99-40b1-acc5-94d58993bdda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Project> .
+<https://datenzee.ds-wizard.org/projects/#Project_a48e86ce-6a99-40b1-acc5-94d58993bdda> <http://purl.org/dc/terms/title> "Exploring Evolutionary Mechanisms in Biodiversity" .
+<https://datenzee.ds-wizard.org/projects/#Project_a48e86ce-6a99-40b1-acc5-94d58993bdda> <http://purl.org/dc/terms/description> "This project aims to investigate the fundamental processes driving evolutionary change and adaptation across diverse species and ecosystems. By studying genetic variations, natural selection, and environmental interactions, we seek to uncover how different species evolve over time and adapt to shifting ecological pressures. Using cutting-edge genomic tools, field observations, and computational models, the project will focus on key evolutionary mechanisms, such as mutation rates, gene flow, and speciation events." .
+<https://datenzee.ds-wizard.org/projects/#Project_a48e86ce-6a99-40b1-acc5-94d58993bdda> <https://w3id.org/dcso/ns/core#end> "2024-10-31 12:00" .
+<https://datenzee.ds-wizard.org/projects/#Project_a48e86ce-6a99-40b1-acc5-94d58993bdda> <https://w3id.org/dcso/ns/core#start> "2024-09-02 12:00" .
+<https://datenzee.ds-wizard.org/projects/#Project_a48e86ce-6a99-40b1-acc5-94d58993bdda> <https://w3id.org/dcso/ns/core#hasFunding> <https://datenzee.ds-wizard.org/projects/#Funding_9dafffef-b568-4250-a532-fa26b763ef10> .
+<https://datenzee.ds-wizard.org/projects/#Funding_9dafffef-b568-4250-a532-fa26b763ef10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#Funding> .
+<https://datenzee.ds-wizard.org/projects/#Funding_9dafffef-b568-4250-a532-fa26b763ef10> <https://w3id.org/dcso/ns/core#fundingStatus> "granted" .
+<https://datenzee.ds-wizard.org/projects/#Funding_9dafffef-b568-4250-a532-fa26b763ef10> <https://w3id.org/dcso/ns/core#hasFunderId> <https://datenzee.ds-wizard.org/projects/#FunderId_83f753f2-8dba-4a6b-a537-82c9a9e68cbe> .
+<https://datenzee.ds-wizard.org/projects/#FunderId_83f753f2-8dba-4a6b-a537-82c9a9e68cbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#FunderId> .
+<https://datenzee.ds-wizard.org/projects/#FunderId_83f753f2-8dba-4a6b-a537-82c9a9e68cbe> <https://w3id.org/dcso/ns/core#identifier> "10.1080/15588742.2004" .
+<https://datenzee.ds-wizard.org/projects/#FunderId_83f753f2-8dba-4a6b-a537-82c9a9e68cbe> <https://w3id.org/dcso/ns/core#identifierType> "DOI" .
+<https://datenzee.ds-wizard.org/projects/#Funding_9dafffef-b568-4250-a532-fa26b763ef10> <https://w3id.org/dcso/ns/core#hasGrantId> <https://datenzee.ds-wizard.org/projects/#GrantId_a03899bb-d7d7-46c9-8869-0c138a0d4404> .
+<https://datenzee.ds-wizard.org/projects/#GrantId_a03899bb-d7d7-46c9-8869-0c138a0d4404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/dcso/ns/core#GrantId> .
+<https://datenzee.ds-wizard.org/projects/#GrantId_a03899bb-d7d7-46c9-8869-0c138a0d4404> <https://w3id.org/dcso/ns/core#identifier> "10.1080/15588742.2005" .
+<https://datenzee.ds-wizard.org/projects/#GrantId_a03899bb-d7d7-46c9-8869-0c138a0d4404> <https://w3id.org/dcso/ns/core#identifierType> "DOI" .

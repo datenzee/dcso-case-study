@@ -1,0 +1,13 @@
+{% import 'src/components/vo/Heading.html.jinja2' as Heading %}
+{% import 'src/components/gen/Content_11f952326f8c4235b1cdd5d5598b508c.html.jinja2' as Content_11f952326f8c4235b1cdd5d5598b508c %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        
+    {#  Customization (before): end  #}
+    {%- call Heading.component(depth) -%}{{ Content_11f952326f8c4235b1cdd5d5598b508c.component(graph, depth + 1, object) }}{%- endcall -%}
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}

@@ -1,0 +1,26 @@
+{% import 'src/components/gen/Content_a1ba72308a6149ceb90e383854a8e85a.html.jinja2' as Content_a1ba72308a6149ceb90e383854a8e85a %}
+{% import 'src/components/gen/DataComponent_414bea604d0e4ad689159e1c1a3a5108.html.jinja2' as DataComponent_414bea604d0e4ad689159e1c1a3a5108 %}
+{% import 'src/components/gen/DataComponent_82535848addd4ae0a1bca60d1f36c8fb.html.jinja2' as DataComponent_82535848addd4ae0a1bca60d1f36c8fb %}
+
+
+{%- macro component(graph, depth, object) -%}
+    {#  Customization (before): start  #}
+        {% import 'src/components/vo/Heading.html.jinja2' as Heading %}
+        {%- call Heading.component(depth + 1) -%}
+            Section A: Data Collection
+        {%- endcall -%}    
+        {%- call Heading.component(depth + 2) -%}
+            1. What data will you collect or create?
+        {%- endcall -%}    
+        {%- set depth = depth + 1 -%}
+    {#  Customization (before): end  #}
+    <div>
+        {{ Content_a1ba72308a6149ceb90e383854a8e85a.component(graph, depth + 1, object) }}
+        {{ DataComponent_414bea604d0e4ad689159e1c1a3a5108.component(graph, depth + 1, object) }}
+        {{ DataComponent_82535848addd4ae0a1bca60d1f36c8fb.component(graph, depth + 1, object) }}
+        
+    </div>
+    {#  Customization (after): start  #}
+        
+    {#  Customization (after): end  #}
+{%- endmacro -%}
